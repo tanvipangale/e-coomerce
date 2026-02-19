@@ -1,5 +1,8 @@
 <?php 
 
+
+include("connection.php");
+
 /*
 1) Class
 2) Objects
@@ -62,11 +65,11 @@ echo '<br>'; echo $hindibook->Pages = 400 ;  echo '<br>';
 echo $hindibook->author = "Ramdhari_singh" ; echo '<br>';
 echo $hindibook->fontname = "Kruti dev" ;
 
-
+/*
 interface shapes {
-	function calculatearea(){
+	//function calculatearea(){
 		
-	}
+	//}
 }
 
 class circle extends shapes
@@ -83,9 +86,9 @@ class square extends shapes
 	}
 }
 
-circle1 = new circle();
-square1 = new square1();
-
+$circle1 = new circle();
+$square1 = new square1();
+*/
 
 
 
